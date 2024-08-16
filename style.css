@@ -1,0 +1,182 @@
+
+#header{
+    height: 745px;
+    background-image: url(./header-bg.jpg);
+    object-fit: cover;
+    background-size: cover;
+    margin: 0;
+}
+.nav-link{
+    color: white !important;
+    font: 15.2px "Montserrat";
+    padding: 15px !important;
+}
+.nav-link:hover{
+    color: #FFC800 !important;
+}
+nav button{
+    border: solid #FFC800 !important;
+    color: #FFC800 !important;
+}
+.logo{
+    width: 200px;
+    height: 65px;
+    padding: 5px 0;
+
+}
+
+#welcome{
+    color: white;
+    margin-top: -100px;
+}
+#welcome h1{
+    font: 36px "Roboto Slab";
+    margin: 0px 0px 32px;
+}
+#welcome p{
+    font: 72px "Montserrat";
+    margin: 0px 0px 64px;
+    font-weight: 700;
+}
+#welcome button{
+    background-color: #FFC800;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    color: white;
+    font: 18px "Montserrat";
+    font-weight: 700;
+}
+.icon{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: #FFC800;
+    color: white;
+    font-size: 66px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.servis h4{
+    font: 24px "Montserrat";
+    font-weight: bold;
+    margin: 16px 0px;
+}
+.servis p{
+    color: #6c757d;
+    font: 16px "Roboto Slab";
+    margin: 0px 0px 16px;
+}
+#servis-head h2{
+    font: 40px "Montserrat";
+    margin: 0px 0px 16px;
+    font-weight: 700;
+}
+#servis-head p{
+    font: 16px "Roboto Slab";
+    margin: 0px 0px 64px;
+    color: #6c757d;
+}
+
+#portfolio{
+    background-color: #f8f9fa;
+}
+.portfolio-item{
+    background-color: white;
+}
+.portfolio-item img{
+    width: 100%;
+    height: 80%;
+}
+
+.portfolio-item h2{
+    font: 24px "Montserrat";
+    font-weight: bold;
+    margin: 0;
+}
+.portfolio-item p{
+    color: #6c757d;
+    font: 16px "Roboto Slab";
+}
+#team{
+    background-color: #f8f9fa;
+}
+.team img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    border: 5px solid gray;
+}
+
+.team i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    align-content: center;
+    margin: 0px 8px;
+}
+
+.team h4{
+    font: 24px "Montserrat";
+    margin: 24px 0px 0px;
+    font-weight: bold;
+}
+.team p{
+    font: 16px "Roboto Slab";
+    color: #6c757d;
+    margin: 0px 0px 16px;
+}
+.brand img{
+    width: 70%;
+    height: 50%;
+}
+
+#contact{
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+}
+#contact-head h2{
+    font: 40px "Montserrat";
+    margin: 0px 0px 16px;
+    font-weight: 700;
+    color: white;
+}
+#contact-head p{
+    font: 16px "Roboto Slab";
+    margin: 0px 0px 64px;
+    color: #6c757d;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 10px;
+}
+textarea{
+    width: 100%;
+    height: 90%;
+    border-radius: 10px;
+    padding: 20px;
+}
+input::placeholder{
+    font-weight:700;
+    color: #6c757d;
+}
+textarea::placeholder{
+    font-weight:700;
+    color: #6c757d;
+}
+.contact button{
+    background-color: #FFC800;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    color: white;
+    font: 18px "Montserrat";
+    font-weight: 700;
+}
